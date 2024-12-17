@@ -1,0 +1,85 @@
+/* EmployeeForm.css */
+
+/* Apply a white family background for the whole page */
+h1, h2 {
+    color: black;  /* Ensure heading text is black */
+  }
+  
+body {
+    font-family: 'Arial', sans-serif; /* Set the global font family */
+    background-color: #f7f7f7; /* Very light background color (near white) */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+  }
+  
+  /* Heading style */
+  h2 {
+    color: black; /* Set heading text color to black */
+    margin-bottom: 20px; /* Spacing below the heading */
+  }
+  
+  /* Form styling */
+  form {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for a 3D effect */
+    padding: 20px;
+    width: 100%;
+    max-width: 500px; /* Max width for the form */
+  }
+  
+  /* Label style */
+  label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: black; /* All text is in black */
+  }
+  
+  /* Input and select styling */
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+    background-color: #fefefe; /* Very light background color for inputs (near white) */
+    color: black; /* Text in input will be black */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+  }
+  
+  /* Date input specific styling */
+  input[type="date"] {
+    padding-left: 12px; /* Adjust padding for date input */
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #4CAF50; /* Green button color */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Error message styling */
+  p {
+    font-size: 14px;
+    color: red; /* Red color for error messages */
+  }
+  
+  /* Remove default styling from the select element */
+  select {
+    background-color: #fefefe; /* Same light background as input */
+  }
+  
